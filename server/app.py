@@ -15,3 +15,5 @@ def index():
     body = {'message': 'Flask SQLAlchemy Lab 1'}
     return make_response(body, 200)
 
+if __name__ == '__main__':
+    app.run(port=5555, debug=True)
